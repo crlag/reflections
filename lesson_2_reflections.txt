@@ -1,0 +1,9 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+R: Git creates the files that contains the metadata of the repository in the folder '.git'. It also list all the file in the repository candidate to be tracked by future commits.
+
+It is necessary so git that this is a repository.
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+R: The staging area tell git which files to track. This is different from the working directory, because there we can keep all the files of our project, including those we don't necessarily want to track with git.
