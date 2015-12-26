@@ -7,3 +7,7 @@ It is necessary so git that this is a repository.
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 R: The staging area tell git which files to track. This is different from the working directory, because there we can keep all the files of our project, including those we don't necessarily want to track with git.
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+R: Using 'git diff --staged' I can compare the files in the staging area with the last commit and check what changes I have introduced since.
