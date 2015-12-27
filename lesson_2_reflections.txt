@@ -27,3 +27,16 @@ Q: What is the result of merging two branches together? Why do we represent it i
 R: By merging to branches we obtain a combined version of the changes added on the files in the two branches, without losing the commit history of any branch.
 
 We represent it that way because the merged branch becomes parent of the two branches.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+R:
+
+PROS
+
+- Saves time
+- Avoid the tedious process of manually comparing two or more file to detect changes.
+
+CONS:
+
+- Merging conflicts
