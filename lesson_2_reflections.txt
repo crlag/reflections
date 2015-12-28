@@ -1,6 +1,6 @@
 Q: What happens when you initialize a repository? Why do you need to do it?
 
-R: Git creates the files that contains the metadata of the repository in the folder '.git'. It also list all the file in the repository candidate to be tracked by future commits.
+A: Git creates the files that contains the metadata of the repository in the folder '.git'. It also list all the file in the repository candidate to be tracked by future commits.
 
 It is necessary so git knows that this is a repository.
 
@@ -8,19 +8,19 @@ Command(s): 'git init'
 
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-R: The staging area tell git which files to track. This is different from the working directory, because there we can keep all the files of our project, including those we don't necessarily want to track with git.
+A: The staging area tell git which files to track. This is different from the working directory, because there we can keep all the files of our project, including those we don't necessarily want to track with git.
 
 Command(s): 'git add <name file>'
 
 Q: How can you use the staging area to make sure you have one commit per logical change?
 
-R: Using 'git diff --staged' I can compare the files in the staging area with the last commit and check what changes I have introduced since.
+A: Using 'git diff --staged' I can compare the files in the staging area with the last commit and check what changes I have introduced since.
 
 Command(s): 'git diff --staged'
 
 Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-R: Basically any time you want to keep a version of your project and easily access it without having to checkout to a previous version. You can create a branch with a working version of your project and create a different branch on which you can introduce significant changes or perform experiments. Then yo can easily move among branches without having to checkout back and forth from and to different points of your commit history.
+A: Basically any time you want to keep a version of your project and easily access it without having to checkout to a previous version. You can create a branch with a working version of your project and create a different branch on which you can introduce significant changes or perform experiments. Then yo can easily move among branches without having to checkout back and forth from and to different points of your commit history.
 
 Working in teams. Each teammate working on a different aspect of the project.
 
@@ -29,11 +29,11 @@ Command(s): 'git branch' -- Lists all branches
 
 Q: How do the diagrams help you visualize the branch structure?
 
-R: It helps by depicting first the point in which they diverge from the master brach, and second the reachability of the commits performed in each brach.
+A: It helps by depicting first the point in which they diverge from the master brach, and second the reachability of the commits performed in each brach.
 
 Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-R: By merging to branches we obtain a combined version of the changes added on the files in the two branches, without losing the commit history of any branch.
+A: By merging to branches we obtain a combined version of the changes added on the files in the two branches, without losing the commit history of any branch.
 
 We represent it that way because the merged branch becomes parent of the two branches.
 
@@ -41,7 +41,7 @@ Command(s): 'git merge branch1 branch2'
 
 Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
-R:
+A:
 
 PROS
 
