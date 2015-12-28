@@ -1,14 +1,14 @@
 Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
 
-R: It was very helpful and easy to use, even on code that I have not written.
+A: It was very helpful and easy to use, even on code that I have not written.
 
 Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
-R: I think is helpful because, first, you don't need to save each change in a different file; and second, you can go back any time to an older working version of your program without having to remember all the changes you have made on your code.
+A: I think is helpful because, first, you don't need to save each change in a different file; and second, you can go back any time to an older working version of your program without having to remember all the changes you have made on your code.
 
 Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
 
-R:
+A:
 
 PROS
 
@@ -20,20 +20,20 @@ CONS
 
 Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 
-R: I think this is because most projects involve more than one file.
+A: I think this is because most projects involve more than one file.
 
 Q: How can you use the commands git log and git diff to view the history of files?
 
-R: The command 'git log' lists all the commits made on a file, identified by an ID number , and shows an optional descriptive message added by the user at the time of commit.
+A: The command 'git log' lists all the commits made on a file, identified by an ID number , and shows an optional descriptive message added by the user at the time of commit.
    The command 'git diff' compares two different commits of a file and shows the differences.
 
 Q: How might using version control make you more confident to make changes that could break something?
 
-R: Since version control allows to go back to a previous working state of the repository, it might make me more confident about changing my code or experimenting new ideas with it.
+A: Since version control allows to go back to a previous working state of the repository, it might make me more confident about changing my code or experimenting new ideas with it.
 
 Note: 'git checkout'
 
 Q: Now that you have your workspace set up, what do you want to try using Git for?
 
-R: 1) Set up a repository from scratch
+A: 1) Set up a repository from scratch
    2) Learning how to go back to a previous version when its commit ID is not available.
