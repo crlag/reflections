@@ -17,3 +17,9 @@ A:
   - Clone, is a copy of a remote or local repository on your computer. It is used when you want to copy the content of a repository and its commit history on your computer.
 
   - Branches, are different and traceable commit histories of the same repository. They are used when you want to keep different versions of the same project in parallel.
+
+Command(s):
+
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+
+A: One possible benefit might be when working on your local copy offline.
